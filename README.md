@@ -32,14 +32,13 @@ cd app-covid-detection
 ```
 
 ### 2. Installer les dépendances
-
 ```bash
 pip install -r requirements.txt
 ```
 
 ### 3. Créer un fichier .env
-
 Créez un fichier .env (à ne pas partager) contenant :
+
 ```bash
 EMAIL_USER=ton_email@gmail.com
 EMAIL_PASS=ton_mot_de_passe_application
@@ -47,11 +46,9 @@ EMAIL_PASS=ton_mot_de_passe_application
 💡 Utilisez un mot de passe d'application Gmail pour la sécurité.
 
 ### 4. Lancer Streamlit
-
 ```bash
 streamlit run app.py
 ```
-
 ✅ **Exemples d'utilisation**
 Remplir le formulaire utilisateur.
 
@@ -69,8 +66,5 @@ Le mot de passe d’application Gmail est recommandé.
 Aucun email ni image n'est stocké côté serveur.
 
 📬 **Contact**
-Développé par Ton Aymen Riani
+Développé par Aymen Riani
 📧 Contact : aymenriani001@gmail.com
-
-
- 
