@@ -1,5 +1,6 @@
-import pythoncom 
-from email.mime.multipart import MIMEMultipart
+import sys
+if sys.platform == "win32":
+    import pythoncomfrom email.mime.multipart import MIMEMultipart
 from email.mime.application import MIMEApplication
 import re
 from docx import Document
