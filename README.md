@@ -18,7 +18,6 @@ Bienvenue dans cette application Streamlit basée sur un modèle ResNet18 entra�
 - [PyTorch](https://pytorch.org/) pour le modèle ResNet18
 - [docx](https://python-docx.readthedocs.io/) & [docx2pdf](https://pypi.org/project/docx2pdf/) pour générer et convertir le rapport
 - [SMTP](https://docs.python.org/3/library/smtplib.html) pour l’envoi des emails
-- [dotenv](https://pypi.org/project/python-dotenv/) pour sécuriser les informations sensibles
 
 ---
 
@@ -59,6 +58,7 @@ Lancer l’analyse.
 Télécharger ou envoyer le rapport.
 
 🛡️ **Sécurité**
+
 Les informations sensibles sont stockées dans le fichier .env (non versionné).
 
 Le mot de passe d’application Gmail est recommandé.
@@ -67,4 +67,5 @@ Aucun email ni image n'est stocké côté serveur.
 
 📬 **Contact**
 Développé par Aymen Riani
+
 📧 Contact : aymenriani001@gmail.com
