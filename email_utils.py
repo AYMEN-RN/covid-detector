@@ -1,4 +1,4 @@
-import pythoncomfrom
+import pythoncom
 from email.mime.multipart import MIMEMultipart
 from email.mime.application import MIMEApplication
 import re
